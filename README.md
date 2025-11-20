@@ -1,28 +1,47 @@
-🧬 Genomic Data Analysis: Identifying Genetic Variations Through Visualization
+# 🧬 Genomic Data Analysis: Identifying Genetic Variations Through Visualization
 
-A simple full-stack AI-powered web app that identifies genetic variations from DNA sequences. Built using Streamlit (frontend), Flask (backend API), and a dummy ML model trained with TensorFlow.
-📌 Features
+A simple full-stack AI-powered web app that identifies **genetic variations** from DNA sequences. Built using **Streamlit** (frontend), **Flask** (backend API), and a **dummy ML model** trained with **TensorFlow**.
 
-🔤 DNA sequence input (e.g., ACGT)
-🔄 Automatic encoding & scaling
-🧠 ML model prediction of variations
-📊 Visualizes genetic variation as bar chart
-🔗 Flask API integrated with Streamlit frontend
-📁 Project Structure
+---
 
-. ├── app.py # Streamlit frontend ├── api.py # Flask backend API ├── Save_dummy_model.py # Script to train/save dummy ML model & scaler ├── genomic_model.h5 # Saved dummy model ├── scaler.pkl # Saved scaler └── requirements.txt # Python dependencies
-⚙️ Technologies Used
+## 📌 Features
 
-🧠 Machine Learning: TensorFlow, scikit-learn
-🧪 Data: Dummy encoded DNA sequence
-🧰 Backend API: Flask
-🌐 Frontend UI: Streamlit
-📊 Charts: Matplotlib
-🐍 Language: Python 3
-🚀 How to Run the Project
+- 🔤 DNA sequence input (e.g., ACGT)
+- 🔄 Automatic encoding & scaling
+- 🧠 ML model prediction of variations
+- 📊 Visualizes genetic variation as bar chart
+- 🔗 Flask API integrated with Streamlit frontend
 
-1. Clone the Repo
+---
 
+## 📁 Project Structure
+
+.
+├── app.py # Streamlit frontend
+├── api.py # Flask backend API
+├── Save_dummy_model.py # Script to train/save dummy ML model & scaler
+├── genomic_model.h5 # Saved dummy model
+├── scaler.pkl # Saved scaler
+└── requirements.txt # Python dependencies
+
+---
+
+## ⚙️ Technologies Used
+
+- 🧠 Machine Learning: `TensorFlow`, `scikit-learn`
+- 🧪 Data: Dummy encoded DNA sequence
+- 🧰 Backend API: `Flask`
+- 🌐 Frontend UI: `Streamlit`
+- 📊 Charts: `Matplotlib`
+- 🐍 Language: Python 3
+
+---
+
+## 🚀 How to Run the Project
+
+### 1. Clone the Repo
+
+```bash
 git clone https://github.com/anjalidecode/GenomicApp.git
 cd genomic-data-analysis
 
@@ -57,4 +76,6 @@ This will be encoded internally and passed to the backend for variation predicti
 
 📊 Output
 Variation values (4 floats)
-A bar chart showing genetic variation frequencies 
+A bar chart showing genetic variation frequencies
+
+```
