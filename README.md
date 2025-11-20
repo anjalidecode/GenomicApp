@@ -17,15 +17,13 @@ A simple full-stack AI-powered web app that identifies **genetic variations** fr
 ## 📁 Project Structure
 
 
-app.py                 # Streamlit UI for user input & visualization
-api.py                 # Flask backend API for model predictions
-Save_dummy_model.py    # Script to train and save dummy ML model & scaler
-
-genomic_model.h5       # Saved TensorFlow model
-scaler.pkl             # Saved scaler for preprocessing
-
-requirements.txt       # Python dependencies
-README.md              # Project documentation
+- app.py                  (Streamlit UI for user input & visualization)
+- api.py                  (Flask backend API for model predictions)
+- Save_dummy_model.py     (Script to train and save dummy ML model & scaler)
+- genomic_model.h5        (Saved TensorFlow model)
+- scaler.pkl              (Saved scaler for preprocessing)
+- requirements.txt        (Python dependencies)
+- README.md               (Project documentation)
 
 ---
 
